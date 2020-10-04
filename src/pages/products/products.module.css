@@ -1,0 +1,11 @@
+.container {
+    display: flex;
+
+
+
+
+    background-color: rgba(17, 3, 31, 0.568);
+    min-height      : 150vh;
+    width           : 100%;
+
+}

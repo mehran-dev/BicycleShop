@@ -1,0 +1,111 @@
+.CarouselContainer {
+    width          : 100%;
+    height         : 95vh;
+    position       : relative;
+    background-size: cover;
+}
+
+
+
+
+.goLeft {
+    position       : absolute;
+    width          : 10%;
+    top            : 0px;
+    left           : 0px;
+    height         : 100%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    align-content  : center;
+    overflow       : hidden;
+
+}
+
+.goLeft:hover {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.445), transparent);
+
+    cursor: pointer;
+
+
+}
+
+.goRight {
+    position       : absolute;
+    top            : 0;
+    right          : 0;
+    width          : 10%;
+    height         : 100%;
+    display        : flex;
+    justify-content: center;
+    align-items    : center;
+    align-content  : center;
+    overflow       : hidden;
+}
+
+
+.signKeeper {
+    font-size: 900%;
+
+    color: rgba(170, 170, 170, 0.589);
+
+    outline: none;
+
+
+}
+
+.signKeeper::selection {
+    background-color: transparent;
+}
+
+
+.signKeeper:hover {
+    color: rgba(187, 255, 0, 0.507);
+}
+
+
+.goRight:hover {
+    cursor: pointer;
+
+    background-image: linear-gradient(to left, rgba(0, 0, 0, 0.438), transparent);
+
+}
+
+
+
+.bottomView {
+    display         : flex;
+    position        : absolute;
+    left            : 50%;
+    transform       : translateX(-50%);
+    bottom          : 10px;
+    border          : 2px solid rgb(128, 105, 0);
+    border-radius   : 6px;
+    background-color: rgba(206, 194, 23, 0.212);
+    max-width       : 70%;
+    overflow        : hidden;
+    justify-content : center;
+    align-content   : center;
+    align-items     : center;
+    flex-direction  : row-reverse;
+    transition      : all ease 0.6s;
+}
+
+
+
+.bottomView div {
+    width          : 60px;
+    height         : 60px;
+    border         : 1px solid firebrick;
+    margin         : 3px;
+    background-size: cover;
+    cursor         : pointer;
+    transition     : all ease 0.6s;
+
+
+}
+
+.middle {
+    height: 60px !important;
+    width : 75px !important;
+}
